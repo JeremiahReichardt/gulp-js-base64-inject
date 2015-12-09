@@ -7,7 +7,7 @@ This is a small Gulp plugin for injecting a javascript file directly into your s
 The simplest example. HTML code:
 
 ```html
-<script src="index.html">
+<script src="index.js">
 ```
 
 ...and Gulp task:
