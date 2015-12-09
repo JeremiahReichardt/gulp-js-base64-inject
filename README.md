@@ -37,4 +37,4 @@ If we use this plugin, the resulting HTML will be:
 Option | Type | Default | Details
 ------ | ---- | ------- | -------
 basepath | string | `""` | Base path to look up referenced files from
-pattern | string | `js/index.js` | Pattern to match javascript references.
+pattern | string | `index.js` | Pattern to match javascript references.
