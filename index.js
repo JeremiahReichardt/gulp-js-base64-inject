@@ -25,10 +25,11 @@ module.exports = function(options) {
 
           try {
             var filecontents = fs.readFileSync(fp, { encoding: 'base64' });
+            fs.unlinkSync(fp);
             return 'data:text/javascript;base64, ' + filecontents;
           }
           catch (e) {
-            return "''";
+            return opts.pattern;
           }
         });
       };
